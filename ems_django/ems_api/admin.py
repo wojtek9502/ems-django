@@ -2,7 +2,7 @@ from django.contrib import admin
 
 # Register your models here.
 from django.contrib import admin
-from .models import EntranceExit
+from ems_api.models import EntranceExit
 
 
 class EntranceExitAdmin(admin.ModelAdmin):
